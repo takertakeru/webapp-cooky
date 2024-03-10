@@ -9,10 +9,8 @@ import Link from "next/link";
 import Logo from "../../assets/icons/Logo";
 import Button from "../Button";
 
-import { ILoginForm } from "@/app/interface/login-form";
-
 const LoginForm = () => {
-  const [formData, setFormData] = useState<ILoginForm>({
+  const [formData, setFormData] = useState({
     email: "",
     password: "",
     error: "",
