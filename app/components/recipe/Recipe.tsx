@@ -75,7 +75,6 @@ const Recipe = () => {
       </div>
 
       <div className="pt-10 pb-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
-        {/* // TEST DATA */}
         {(isOthersRecipe ? othersRecipe : ownRecipe).map((item: any) => (
           <div key={item.id} className="col-span-1 cursor-pointer group">
             <div className="flex flex-col gap-2 w-full">
@@ -85,7 +84,6 @@ const Recipe = () => {
                   alt={item.name}
                   fill
                   className="object-cover w-full h-full group-hover:scale-110 transition"
-                  // Temporary Redirect
                   onClick={() => {
                     router.push(`/recipe/view/${item._id}`);
                   }}
