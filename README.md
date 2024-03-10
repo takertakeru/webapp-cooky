@@ -43,7 +43,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 MONGODB_URI=
 NEXTAUTH_SECRET=
-NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_URL=
 
 ## Next Auth Secret just put random string/words
 ```
