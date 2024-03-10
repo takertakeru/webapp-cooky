@@ -61,7 +61,8 @@ Register:
 ![register](https://github.com/takertakeru/webapp-cooky/assets/47181867/d711c6c2-adda-414f-aa1c-209d900d53b5)
 Dashboard:
 ![image](https://github.com/takertakeru/webapp-cooky/assets/47181867/d87f6230-fc1b-4e57-b8c2-8fcff597201b)
-![dashboard](https://github.com/takertakeru/webapp-cooky/assets/47181867/d83b1bc3-ae0f-4bd6-ae6f-5dc740a39028)
+![asdffff](https://github.com/takertakeru/webapp-cooky/assets/47181867/66b342e9-539a-47f4-a7f9-3b834d5eaffe)
+
 
 
 
@@ -81,6 +82,7 @@ Unfinished task:
 - Dark Mode
 - Pagination
 - Admin Access
+- When Editing a Recipe in Others' Recipe and Saving it, it will move to Own's Recipe (Bug)
 
 
 
