@@ -35,12 +35,17 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-**Login: **
-![ScreenRecording2024-03-11at3 27 49AM-ezgif com-video-to-gif-converter (1)](https://github.com/takertakeru/webapp-cooky/assets/47181867/5d8c9664-3a76-4ec6-8158-99e5878a58e9)
+## MongoDB Database: 
+```
+## Setup MongoDB Compass or MongoDB Atlas
+## .env - MongoDB Atlas
+## .env.local - MongoDB Compass
 
+MONGODB_URI=
+NEXTAUTH_SECRET=
+NEXTAUTH_URL=http://localhost:3000
 
-
-
-MongoDB Database: 
+## Next Auth Secret just put random string/words
+```
 
 
