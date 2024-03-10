@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 
@@ -51,7 +50,7 @@ const View = () => {
           <div className="h-[calc(100%-4rem)] w-full flex justify-center relative">
             <img
               src={`/recipe-images/${recipe._id}.jpg`}
-              alt="Sample"
+              alt={`/recipe-images/${recipe.name}.jpg`}
               className="w-full object-cover h-[250px] md:h-[300px]"
             />
             <div
@@ -76,11 +75,9 @@ const View = () => {
                     />
                   </Link>
                   <div className="flex items-end gap-4 md:hidden">
-                    {/* Temporary links no function yet */}
                     <Link href={`/recipe/edit/${recipe._id}`}>
                       <MobileEditGrayIcon />
                     </Link>
-                    {/* Delete Function Here */}
                     <a
                       onClick={() => {
                         setIsDelete({ _id: recipe._id, name: recipe.name });
@@ -94,7 +91,6 @@ const View = () => {
                 <div className="mt-auto px-4">
                   <div className="flex place-content-between pb-2">
                     <div className="font-paytone text-white text-4xl lg:text-6xl md:text-5xl">
-                      {/* {recipe.name} here if recipe model is done */}
                       {recipe.name}
                     </div>
                   </div>
@@ -115,11 +111,9 @@ const View = () => {
                     </div>
 
                     <div className="hidden items-end gap-4 md:flex">
-                      {/* Temporary links no function yet */}
                       <Link href={`/recipe/edit/${recipe._id}`}>
                         <DesktopEditGrayIcon />
                       </Link>
-                      {/* Delete Function Here */}
                       <a
                         onClick={() => {
                           setIsDelete({ _id: recipe._id, name: recipe.name });
