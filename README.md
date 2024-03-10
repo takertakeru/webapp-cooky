@@ -82,7 +82,7 @@ Unfinished task:
 - Dark Mode
 - Pagination
 - Admin Access
-- When Editing a Recipe in Others' Recipe and Saving it, it will move to Own's Recipe (Bug)
+- When Editing a Recipe in Others' Recipe and Saving it, it will move to Own's Recipe (Bug - Refactor Code) 
 
 
 
