@@ -9,8 +9,6 @@ import Button from "../Button";
 
 import YellowRectangleIcon from "../../assets/icons/YellowRectangleIcon";
 
-// TEST DATA
-import { OWN_RECIPE, OTHERS_RECIPE } from "@/app/assets/constants/recipe";
 import ScrollToTopButton from "../atoms/ScrollToTop";
 import MobileAddIcon from "@/app/assets/icons/MobileAddIcon";
 
