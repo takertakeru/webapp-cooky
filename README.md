@@ -46,6 +46,12 @@ NEXTAUTH_SECRET=
 NEXTAUTH_URL=http://localhost:3000
 
 ## Next Auth Secret just put random string/words
+
+## Images
+```
+Recipe Images are saved locally.
+```
+
 ```
 Login: 
 ![image](https://github.com/takertakeru/webapp-cooky/assets/47181867/cf2b6f42-0408-4172-9357-06bb3bc0e5e9)
