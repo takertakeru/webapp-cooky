@@ -47,5 +47,41 @@ NEXTAUTH_URL=http://localhost:3000
 
 ## Next Auth Secret just put random string/words
 ```
+Login: 
+![image](https://github.com/takertakeru/webapp-cooky/assets/47181867/cf2b6f42-0408-4172-9357-06bb3bc0e5e9)
+![ScreenRecording2024-03-11at3 27 49AM-ezgif com-video-to-gif-converter (1)](https://github.com/takertakeru/webapp-cooky/assets/47181867/5b4e8b9b-83f6-4c18-ab59-0923eba19bd2)
+Register:
+![image](https://github.com/takertakeru/webapp-cooky/assets/47181867/9414e39b-3413-45b7-90a2-8947ddd36630)
+![register](https://github.com/takertakeru/webapp-cooky/assets/47181867/d711c6c2-adda-414f-aa1c-209d900d53b5)
+Dashboard:
+![image](https://github.com/takertakeru/webapp-cooky/assets/47181867/d87f6230-fc1b-4e57-b8c2-8fcff597201b)
+![dashboard](https://github.com/takertakeru/webapp-cooky/assets/47181867/d83b1bc3-ae0f-4bd6-ae6f-5dc740a39028)
+
+
+
+Screenshots from other Machine (Windows 11) using MongoDB Atlas:
+![image](https://github.com/takertakeru/webapp-cooky/assets/47181867/26a10406-a213-42fa-8ef9-d8e68a87c62b)
+![image](https://github.com/takertakeru/webapp-cooky/assets/47181867/cf64bc95-3798-4da4-bc3a-63844ffc3cc7)
+![image](https://github.com/takertakeru/webapp-cooky/assets/47181867/97ffe9b9-b87f-45ff-aca0-0906da040163)
+
+Unfinished task:
+
+- Dashboard Spatula Logo Background
+- Deleted, Cancel, & Save Success Modal (Only Delete Recipe is implemented)
+- Edit Image (Not yet implemented)
+- Proper Types
+- Code Refactor
+- TinyMCE Formatting Bug
+- Dark Mode
+- Pagination
+- Admin Access
+
+
+
+
+
+
+
+
 
 
