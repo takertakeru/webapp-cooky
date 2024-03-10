@@ -7,7 +7,6 @@ import Modal from "./Modal";
 const DeleteRecipeModal = ({ _id, name }: { _id: string; name: string }) => {
   const router = useRouter();
 
-  // temporary onSubmit
   const onSubmit = () => {
     fetch(`/api/recipe?recipe_id=${_id}`, {
       method: "DELETE",
@@ -30,7 +29,7 @@ const DeleteRecipeModal = ({ _id, name }: { _id: string; name: string }) => {
           <div className="font-lexend">
             Are you sure you want to{" "}
             <span className="text-red-600">DELETE</span> the recipe for
-            {name}
+            {` ${name}`}
             <br />
             <br />
             <span>There is no turning back.</span>
@@ -45,7 +44,9 @@ const DeleteRecipeModal = ({ _id, name }: { _id: string; name: string }) => {
       isOpen={Boolean(_id && _id !== "")}
       actionLabel="Yes"
       secondaryActionLabel="No"
-      secondaryAction={() => {}}
+      secondaryAction={() => {
+        router.push("/dashboard");
+      }}
       body={bodyContent}
       onSubmit={onSubmit}
     />
