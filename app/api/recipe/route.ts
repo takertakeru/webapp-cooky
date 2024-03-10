@@ -18,15 +18,12 @@ export async function GET(req: Request) {
   try {
     const session = await getServerSession(authOptions);
 
-    // Check for Session
     if (!session) {
       return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
     }
 
-    // Connect to MongoDB
     await connectMongoDB();
 
-    // Find email exist
     const user = await Users.findOne({ email: session.user?.email });
 
     if (!user) {
@@ -60,15 +57,12 @@ export async function POST(req: Request) {
   try {
     const session = await getServerSession(authOptions);
 
-    // Check for Session
     if (!session) {
       return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
     }
 
-    // Connect to MongoDB
     await connectMongoDB();
 
-    // Find email exist
     const user = await Users.findOne({ email: session.user?.email });
 
     if (!user) {
@@ -112,15 +106,12 @@ export async function PUT(req: Request) {
   try {
     const session = await getServerSession(authOptions);
 
-    // Check for Session
     if (!session) {
       return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
     }
 
-    // Connect to MongoDB
     await connectMongoDB();
 
-    // Find email exist
     const user = await Users.findOne({ email: session.user?.email });
 
     if (!user) {
@@ -162,15 +153,12 @@ export async function DELETE(req: Request) {
   try {
     const session = await getServerSession(authOptions);
 
-    // Check for Session
     if (!session) {
       return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
     }
 
-    // Connect to MongoDB
     await connectMongoDB();
 
-    // Find email exist
     const user = await Users.findOne({ email: session.user?.email });
 
     if (!user) {
