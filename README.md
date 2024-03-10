@@ -78,7 +78,7 @@ Unfinished task:
 - Edit Image (Not yet implemented, Upload Image only)
 - Proper Types
 - Code Refactor
-- TinyMCE Formatting Bug
+- TinyMCE Formatting Bug - Refactor Code example: (unordered list and other formatting won't reflect after saving)
 - Dark Mode
 - Pagination
 - Admin Access
