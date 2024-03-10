@@ -68,7 +68,7 @@ Unfinished task:
 
 - Dashboard Spatula Logo Background
 - Deleted, Cancel, & Save Success Modal (Only Delete Recipe is implemented)
-- Edit Image (Not yet implemented)
+- Edit Image (Not yet implemented, Upload Image only)
 - Proper Types
 - Code Refactor
 - TinyMCE Formatting Bug
