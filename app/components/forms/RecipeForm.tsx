@@ -241,7 +241,7 @@ const RecipeForm = ({
             outline
             className="w-full place-content-center md:place-content-start md:w-auto"
             onClick={() => {
-              router.push(`/recipe/view/${id}`);
+              router.push("/dashboard");
             }}
           />
           <Button
